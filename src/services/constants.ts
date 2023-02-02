@@ -3,6 +3,7 @@ import { SkillCategory } from '../components/Skills';
 import tableURL from '../assets/table.png';
 import learningURL from '../assets/learning.png';
 import todoURL from '../assets/todo.png';
+import storeURL from '../assets/store.png';
 
 const skills: SkillCategory[] = [
   {
@@ -67,6 +68,14 @@ const projects: ProjectInterface[] = [
     stack:
       'Frontend: JavaScript, React/Redux; Backend: Node.Js, Express.Js, MongoDB',
     gitURL: 'https://github.com/Wemitom/react-todo-training',
+  },
+  {
+    img: storeURL,
+    title: 'Интернет магазин',
+    description:
+      'Интернет магазин на основе fakestoreapi. Приложение позволяет добавить товары в корзину, а после этого заказать данные товары.',
+    stack: 'Frontend: TypeScript, React/Redux, Tailwind',
+    gitURL: 'https://github.com/Wemitom/react_store',
   },
 ];
 
