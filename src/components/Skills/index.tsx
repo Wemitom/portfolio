@@ -30,12 +30,20 @@ const getChartWidth = (value: number) => {
   }
 };
 
-const Skills = ({ skills }: { skills: SkillCategory[] }) => {
+const Skills = () => {
   const [refChart, inViewChart] = useInView({ threshold: 0.5 });
   const [showChart, setShowChart] = useState(false);
   useEffect(() => {
     inViewChart && setShowChart(true);
   }, [inViewChart, showChart]);
+
+  const [skills, setSkills] = useState<SkillCategory[]>([]);
+  useEffect(() => {
+    const fetchSkills = async (): Promise<SkillCategory[]> =>
+      await (await fetch('skills.json')).json();
+
+    fetchSkills().then((skill) => setSkills([...skill]));
+  }, []);
 
   return (
     <Section heading="Навыки">

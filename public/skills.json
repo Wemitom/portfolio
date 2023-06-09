@@ -1,0 +1,41 @@
+[
+  {
+    "category": "Frontend",
+    "skills": [
+      { "name": "HTML", "exp": 5 },
+      { "name": "CSS", "exp": 4 },
+      { "name": "JavaScript", "exp": 4 },
+      { "name": "TypeScript", "exp": 4 },
+      { "name": "React", "exp": 5 },
+      { "name": "Redux", "exp": 4 },
+      { "name": "Next.js 12", "exp": 4 },
+      { "name": "Vue", "exp": 3 },
+      { "name": "Tailwind", "exp": 4 },
+      { "name": "Bootstrap", "exp": 3 }
+    ]
+  },
+  {
+    "category": "Backend",
+    "skills": [
+      { "name": "Node.Js", "exp": 3 },
+      { "name": "Express.Js", "exp": 3 },
+      { "name": "C#", "exp": 3 },
+      { "name": "ASP.NET", "exp": 3 },
+      { "name": "PHP", "exp": 2 },
+      { "name": "PostgreSQL", "exp": 2 },
+      { "name": "MongoDB", "exp": 3 },
+      { "name": "SQL Server", "exp": 3 },
+      { "name": "Nginx/Apache", "exp": 2 },
+      { "name": "Docker", "exp": 1 }
+    ]
+  },
+  {
+    "category": "Другие",
+    "skills": [
+      { "name": "C++", "exp": 3 },
+      { "name": "Delphi/Pascal", "exp": 3 },
+      { "name": "x86 assembly", "exp": 2 },
+      { "name": "Английский", "exp": 5 }
+    ]
+  }
+]

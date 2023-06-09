@@ -9,7 +9,7 @@ function App() {
     <>
       <main className="w-4/5">
         <Introduction />
-        <Skills skills={skills} />
+        <Skills />
         <Projects />
       </main>
       <Footer />

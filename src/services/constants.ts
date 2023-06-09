@@ -1,9 +1,5 @@
 import { ProjectInterface } from '../components/Projects/Project';
 import { SkillCategory } from '../components/Skills';
-import tableURL from '../assets/table.png';
-import learningURL from '../assets/learning.png';
-import todoURL from '../assets/todo.png';
-import storeURL from '../assets/store.png';
 
 const skills: SkillCategory[] = [
   {
@@ -15,7 +11,8 @@ const skills: SkillCategory[] = [
       { name: 'TypeScript', exp: 4 },
       { name: 'React', exp: 5 },
       { name: 'Redux', exp: 4 },
-      { name: 'Tailwind', exp: 3 },
+      { name: 'Vue', exp: 3 },
+      { name: 'Tailwind', exp: 4 },
       { name: 'Bootstrap', exp: 3 },
     ],
   },
@@ -45,7 +42,7 @@ const skills: SkillCategory[] = [
 
 const projects: ProjectInterface[] = [
   {
-    img: tableURL,
+    img: '/table.png',
     title: 'Table',
     description:
       'Отвечал за разработку функционала веб-приложения для онлайн брони столика в ресторане. Мною сайт был полностью перенесен на React/Redux.',
@@ -53,7 +50,7 @@ const projects: ProjectInterface[] = [
     gitURL: 'https://github.com/Wemitom/table_dev',
   },
   {
-    img: learningURL,
+    img: '/learning.png',
     title: 'Дистанционное обучение',
     description:
       '1. Представление учебных материалов с помощью видео, презентаций, документов. Преподаватель может выложить учебный материал к тому или иному курсу, а студенты, записанные на соответствующий курс, могут либо просмотреть материал (для видео), либо скачать для дальнейшего самостоятельного просмотра.2. Организация текущего контроля знаний (выдача заданий, тестирование, загрузка отчётов, загрузка изображений). Преподаватель может запланировать проведение теста, лабораторной работы или задать домашнюю работу. В соответствующее запланированное время студент может пройти тестирование, либо выложить отчёт к лабораторной или домашней работе. 3. Организация общения преподавателя со студентами. У студента имеется возможность задать вопрос по лекции или другому материалу.',
@@ -61,7 +58,7 @@ const projects: ProjectInterface[] = [
     gitURL: 'https://github.com/Wemitom/distance-learning',
   },
   {
-    img: todoURL,
+    img: '/todo.png',
     title: 'Напоминания',
     description:
       'Приложение служит для хранения напоминаний пользователя. Интерфейс сделан с учётом обеспечения максимальных доступности и удобства. Для облегчения работы пользователя с напоминаниями, было решено разбить их по категориям. После выполнения того или иного напоминания, пользователь может отметить напоминание как выполненное или удалить его. Так же для увеличения доступности веб-приложения у каждой категории имеется уникальный цветовой маркер, позволяющий определить, к какой категории относится то или иное напоминание.',
@@ -70,12 +67,19 @@ const projects: ProjectInterface[] = [
     gitURL: 'https://github.com/Wemitom/react-todo-training',
   },
   {
-    img: storeURL,
+    img: '/store.png',
     title: 'Интернет магазин',
     description:
       'Интернет магазин на основе fakestoreapi. Приложение позволяет добавить товары в корзину, а после этого заказать данные товары.',
     stack: 'Frontend: TypeScript, React/Redux, Tailwind',
     gitURL: 'https://github.com/Wemitom/react_store',
+  },
+  {
+    img: '/blackjack.png',
+    title: 'Blackjack',
+    description: 'Простое приложение симулирующее игру в blackjack.',
+    stack: 'Frontend: TypeScript, Vue',
+    gitURL: 'https://github.com/Wemitom/vue-blackjack',
   },
 ];
 
